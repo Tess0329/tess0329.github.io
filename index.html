@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>StreamPhone PC 프로그램 설치</title>
+<title data-i18n="title">StreamPhone PC 프로그램 설치</title>
 <meta name="description" content="휴대폰을 PC 스트림덱으로 쓰는 StreamPhone의 PC 프로그램을 내려받습니다.">
 <style>
   @font-face { font-family:Pretendard; font-weight:400; font-display:swap; src:url(fonts/pretendard-regular.woff2) format("woff2"); }
@@ -40,50 +40,95 @@
 </head>
 <body>
 <main>
-  <h1>StreamPhone PC 프로그램</h1>
-  <p class="lead">휴대폰을 PC 스트림덱으로 씁니다. Windows 10·11용 무료 프로그램입니다.</p>
+  <h1 data-i18n="h1">StreamPhone PC 프로그램</h1>
+  <p class="lead" data-i18n="lead">휴대폰을 PC 스트림덱으로 씁니다. Windows 10·11용 무료 프로그램입니다.</p>
 
   <section class="card status" id="pc">
-    <strong>설치 파일을 내려받는 중입니다.</strong>
-    <a class="button" id="download" href="https://github.com/streamphone/streamphone.github.io/releases/latest/download/StreamPhone_Setup_x64.exe">다시 내려받기</a>
+    <strong data-i18n="downloading">설치 파일을 내려받는 중입니다.</strong>
+    <a class="button" id="download" href="https://github.com/streamphone/streamphone.github.io/releases/latest/download/StreamPhone_Setup_x64.exe" data-i18n="again">다시 내려받기</a>
   </section>
   <section class="card status" id="phone" hidden>
-    <strong>이 페이지는 PC에서 여세요.</strong>
-    <div>PC 브라우저 주소창에 <b>streamphone.github.io</b>를 입력하세요.</div>
+    <strong data-i18n="phone">이 페이지는 PC에서 여세요.</strong>
+    <div data-i18n="phone2">PC 브라우저 주소창에 <b>streamphone.github.io</b>를 입력하세요.</div>
   </section>
 
   <section class="card">
     <ol>
-      <li><strong>내려받은 파일을 실행해 설치합니다.</strong></li>
-      <li><strong>StreamPhone에서 "연결 시작"을 누릅니다.</strong></li>
-      <li><strong>휴대폰 앱에서 "QR 코드 스캔"을 누르고 PC 화면의 QR을 찍습니다.</strong></li>
+      <li><strong data-i18n="s1">내려받은 파일을 실행해 설치합니다.</strong></li>
+      <li><strong data-i18n="s2">StreamPhone에서 "연결 시작"을 누릅니다.</strong></li>
+      <li><strong data-i18n="s3">휴대폰 앱에서 "QR 코드 스캔"을 누르고 PC 화면의 QR을 찍습니다.</strong></li>
     </ol>
-    <div class="note">PC와 휴대폰을 같은 공유기에 연결해 주세요.</div>
+    <div class="note" data-i18n="note">PC와 휴대폰을 같은 공유기에 연결해 주세요.</div>
   </section>
 
   <details class="card">
-    <summary>문제가 있나요?</summary>
+    <summary data-i18n="help">문제가 있나요?</summary>
     <ul>
-      <li>브라우저가 "일반적으로 다운로드되지 않는 파일"이라고 하면 <b>유지</b>를 누릅니다.</li>
-      <li>"Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b>을 누릅니다.</li>
-      <li>휴대폰이 연결되지 않으면 Windows 설정 → 네트워크에서 집 네트워크(Wi-Fi 또는 유선)를 <b>개인 네트워크</b>로 바꿉니다.</li>
-      <li>공유기가 없거나 Wi-Fi로 연결되지 않으면 휴대폰을 USB 케이블로 PC에 꽂고 휴대폰 설정에서 <b>USB 테더링</b>을 켠 뒤 QR을 스캔합니다.</li>
-      <li>설치 없이 쓰려면 <a href="https://github.com/streamphone/streamphone.github.io/releases/latest/download/StreamPhone_Windows_x64.zip">압축 파일</a>을 풀어 StreamPhone.exe를 실행합니다(자동 업데이트 안 됨).</li>
+      <li data-i18n="h1x">브라우저가 "일반적으로 다운로드되지 않는 파일"이라고 하면 <b>유지</b>를 누릅니다.</li>
+      <li data-i18n="h2x">"Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b>을 누릅니다.</li>
+      <li data-i18n="h3x">휴대폰이 연결되지 않으면 Windows 설정 → 네트워크에서 집 네트워크(Wi-Fi 또는 유선)를 <b>개인 네트워크</b>로 바꿉니다.</li>
+      <li data-i18n="h4x">공유기가 없거나 Wi-Fi로 연결되지 않으면 휴대폰을 USB 케이블로 PC에 꽂고 휴대폰 설정에서 <b>USB 테더링</b>을 켠 뒤 QR을 스캔합니다.</li>
+      <li data-i18n="h5x">설치 없이 쓰려면 <a href="https://github.com/streamphone/streamphone.github.io/releases/latest/download/StreamPhone_Windows_x64.zip">압축 파일</a>을 풀어 StreamPhone.exe를 실행합니다(자동 업데이트 안 됨).</li>
     </ul>
   </details>
 
   <footer>
-    <a href="https://github.com/streamphone/streamphone.github.io/releases">이전 버전</a> ·
-    <a href="privacy.html">개인정보처리방침</a>
+    <a href="https://github.com/streamphone/streamphone.github.io/releases" data-i18n="older">이전 버전</a> ·
+    <a href="privacy.html" id="privacy" data-i18n="privacy">개인정보처리방침</a> ·
+    <span id="langs"><a href="?lang=ko">한국어</a> · <a href="?lang=en">English</a> · <a href="?lang=ja">日本語</a></span>
   </footer>
 </main>
 <script>
-  // 휴대폰에서 열면 Windows 설치 파일을 받지 않고 안내만 보여 줍니다.
+  // 언어: ?lang=ko|en|ja, 없으면 브라우저 언어(한국어·일본어가 아니면 English).
+  var T = {
+    en: {
+      title: "Install the StreamPhone PC app", h1: "StreamPhone PC app",
+      lead: "Use your phone as a Stream Deck for your PC. A free app for Windows 10 and 11.",
+      downloading: "Downloading the installer.", again: "Download again",
+      phone: "Open this page on your PC.", phone2: "Type <b>streamphone.github.io</b> in your PC browser's address bar.",
+      s1: "Run the downloaded file to install.", s2: "Click \"Start connection\" in StreamPhone.",
+      s3: "In the phone app, tap \"Scan QR code\" and scan the QR code on your PC.",
+      note: "Connect your PC and phone to the same router.", help: "Having trouble?",
+      h1x: "If your browser says the file isn't commonly downloaded, choose <b>Keep</b>.",
+      h2x: "If \"Windows protected your PC\" appears, click <b>More info → Run anyway</b>.",
+      h3x: "If the phone can't connect, set your home network (Wi-Fi or wired) to <b>Private</b> in Windows Settings → Network.",
+      h4x: "No router, or Wi-Fi won't connect? Plug the phone into the PC with a USB cable, turn on <b>USB tethering</b> in the phone's settings, and scan the QR code.",
+      h5x: "To use it without installing, unzip the <a href=\"ZIP\">zip file</a> and run StreamPhone.exe (no automatic updates).",
+      older: "Older versions", privacy: "Privacy policy"
+    },
+    ja: {
+      title: "StreamPhone PCアプリのインストール", h1: "StreamPhone PCアプリ",
+      lead: "スマホをPCのストリームデッキとして使えます。Windows 10・11用の無料アプリです。",
+      downloading: "インストーラーをダウンロードしています。", again: "もう一度ダウンロード",
+      phone: "このページはPCで開いてください。", phone2: "PCのブラウザのアドレスバーに <b>streamphone.github.io</b> と入力してください。",
+      s1: "ダウンロードしたファイルを実行してインストールします。", s2: "StreamPhoneで「接続を開始」を押します。",
+      s3: "スマホアプリで「QRコードを読み取る」を押し、PC画面のQRコードを読み取ります。",
+      note: "PCとスマホを同じルーターに接続してください。", help: "うまくいかないときは",
+      h1x: "ブラウザに「一般的にダウンロードされていないファイル」と表示されたら <b>保存</b> を選びます。",
+      h2x: "「WindowsによってPCが保護されました」と表示されたら <b>詳細情報 → 実行</b> を押します。",
+      h3x: "スマホが接続できない場合は、Windowsの設定 → ネットワークで自宅のネットワーク（Wi-Fiまたは有線）を <b>プライベートネットワーク</b> に変更します。",
+      h4x: "ルーターがない、またはWi-Fiで接続できない場合は、スマホをUSBケーブルでPCにつなぎ、スマホの設定で <b>USBテザリング</b> をオンにしてからQRコードを読み取ります。",
+      h5x: "インストールせずに使う場合は <a href=\"ZIP\">ZIPファイル</a> を展開して StreamPhone.exe を実行します（自動更新なし）。",
+      older: "以前のバージョン", privacy: "プライバシーポリシー"
+    }
+  };
+  var asked = (location.search.match(/[?&]lang=(ko|en|ja)\b/) || [])[1];
+  var nav = (navigator.language || "en").slice(0, 2);
+  var lang = asked || (nav === "ko" || nav === "ja" ? nav : "en");
+  document.documentElement.lang = lang;
+  if (T[lang]) {
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      var text = T[lang][el.getAttribute("data-i18n")];
+      if (text) el.innerHTML = text.replace("ZIP", "https://github.com/streamphone/streamphone.github.io/releases/latest/download/StreamPhone_Windows_x64.zip");
+    });
+    document.getElementById("privacy").href = "privacy-" + lang + ".html";
+  }
+  // 휴대폰에서 열면 Windows 설치 파일을 받지 않고 안내만 보여 줍니다. 언어만 바꿀 때(?lang=)는 다시 내려받지 않습니다.
   var mobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
   if (mobile) {
     document.getElementById('pc').hidden = true;
     document.getElementById('phone').hidden = false;
-  } else if (!/[?&]nodownload\b/.test(location.search)) {
+  } else if (!/[?&](nodownload|lang)\b/.test(location.search)) {
     setTimeout(function () { location.href = document.getElementById('download').href; }, 400);
   }
 </script>
