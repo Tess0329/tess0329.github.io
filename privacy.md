@@ -4,9 +4,9 @@ title: StreamPhone 개인정보처리방침
 
 # StreamPhone 개인정보처리방침
 
-시행일: 2026-11-20 · 운영자: Tess0329 · 문의: jts112804@gmail.com
+시행일: 2026-11-22 · 운영자: Tess0329 · 문의: jts112804@gmail.com
 
-StreamPhone은 Android 휴대폰을 같은 로컬 네트워크에 있는 Windows PC의 조작 화면으로 쓰는 앱입니다. StreamPhone 운영자는 사용자 계정을 만들지 않고, 앱이 만든 데이터를 운영자 서버로 보내지 않습니다.
+StreamPhone은 Android 휴대폰을 같은 로컬 네트워크에 있는 Windows PC의 조작 화면으로 쓰는 앱입니다. StreamPhone 운영자는 사용자 계정을 만들지 않고, 앱이 만든 데이터를 운영자 서버로 보내지 않습니다. 광고와 결제는 Google이 처리합니다(아래 참고).
 
 ## 휴대폰에 저장하는 정보
 
@@ -26,6 +26,12 @@ StreamPhone은 Android 휴대폰을 같은 로컬 네트워크에 있는 Windows
 - **인터넷·네트워크 상태·절전 해제 방지**: 같은 네트워크의 PC와 연결을 유지하는 데만 사용합니다.
 - 위치 권한은 요청하지 않습니다.
 
+## 광고와 광고 제거 구매
+
+무료 앱의 조작 화면 아래에 Google AdMob 배너 광고를 보여 줍니다. 광고를 보여 주려고 Google이 광고 ID, 기기 정보(기종·OS 버전·언어), 대략적인 위치(IP 주소 기반), 광고 조회·클릭 정보를 수집·처리할 수 있습니다. 개인정보 동의가 필요한 지역에서는 광고 전에 동의를 묻고, 동의 내용에 따라 맞춤 광고를 끕니다. Google의 정보 처리는 [Google 개인정보처리방침](https://policies.google.com/privacy)과 [Google이 파트너의 앱 데이터를 사용하는 방식](https://policies.google.com/technologies/partner-sites)을 따릅니다.
+
+"광고 제거"는 Google Play 결제로 구매합니다. 결제 정보는 Google이 처리하며, 앱은 구매했는지 여부만 확인해 휴대폰에 저장합니다.
+
 ## Windows 프로그램
 
 Windows용 StreamPhone은 조작 화면 배치, 휴대폰 등록 정보, OBS·Twitch 연동 정보를 해당 PC의 Windows 사용자 계정 폴더에 보관합니다. Twitch를 연결하면 Windows 프로그램이 Twitch와 직접 통신합니다. 이 정보는 운영자에게 전송되지 않습니다.
@@ -40,4 +46,4 @@ Windows 프로그램은 새 버전을 확인하려고 GitHub(`api.github.com`)�
 
 ## 변경
 
-이 방침이 바뀌면 이 페이지의 시행일을 갱신합니다. 광고를 도입하면 광고 공급사가 처리하는 정보를 이 페이지에 먼저 적습니다.
+이 방침이 바뀌면 이 페이지의 시행일을 갱신합니다.
