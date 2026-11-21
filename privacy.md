@@ -4,7 +4,7 @@ title: StreamPhone 개인정보처리방침
 
 # StreamPhone 개인정보처리방침
 
-시행일: 2026-11-20 · 운영자: Tess0329 · 문의: (이메일)
+시행일: 2026-11-20 · 운영자: Tess0329 · 문의: jts112804@gmail.com
 
 StreamPhone은 Android 휴대폰을 같은 로컬 네트워크에 있는 Windows PC의 조작 화면으로 쓰는 앱입니다. StreamPhone 운영자는 사용자 계정을 만들지 않고, 앱이 만든 데이터를 운영자 서버로 보내지 않습니다.
 
